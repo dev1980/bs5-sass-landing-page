@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&family=Nunito:wght@300;600&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.main_header {
+  width: 100vw;
+  height: 10rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))) #0a183d;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) #0a183d;
+}
+
+.main_header .navbar-brand {
+  color: #fff;
+  -webkit-animation: music 1s linear infinite;
+          animation: music 1s linear infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.main_header .navbar-brand .fas {
+  font-size: 4rem;
+}
+
+@-webkit-keyframes music {
+  from {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  to {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+
+@keyframes music {
+  from {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  to {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+}
+/*# sourceMappingURL=main.css.map */
